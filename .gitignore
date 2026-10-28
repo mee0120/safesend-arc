@@ -1,0 +1,39 @@
+# Secrets and credentials: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+keystore/
+.circle/
+recovery_file*
+*.dat
+id_rsa*
+secrets/
+
+# Dependencies and build output
+node_modules/
+dist/
+.vercel/
+.vite/
+*.tsbuildinfo
+
+# Foundry output (rebuild with `bun run contracts:build`)
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Deployment records written by tooling (contain wallet IDs); addresses live in README.md / AGENTS.md
+contracts/contract-metadata/*.json
+
+# Local logs and traces
+traces.jsonl
+console.jsonl
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
