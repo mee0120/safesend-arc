@@ -6,7 +6,7 @@ Built with [Arc Studio](https://studio.arc.io)
 
 ## Live app and contract
 
-- App: https://arc-studio-17d19eca7fd44f8cbb1a1907.vercel.app
+- App: https://safesend-arc.vercel.app
 - Arc Mainnet contract: [`0x77704333686A4F2CdE8fe0688a77738d3bf82EA5`](https://explorer.arc.io/address/0x77704333686A4F2CdE8fe0688a77738d3bf82EA5)
 - Example mainnet claim transaction: [`0x9ba6bef39cc6c6b2f94efe6723a570aa89ad9c132d64e1f6420b322edef9fa8b`](https://explorer.arc.io/tx/0x9ba6bef39cc6c6b2f94efe6723a570aa89ad9c132d64e1f6420b322edef9fa8b)
 
